@@ -7,4 +7,3 @@
 #zephyr_include_directories()
 
 add_subdirectory(drivers)
-add_subdirectory(app)
