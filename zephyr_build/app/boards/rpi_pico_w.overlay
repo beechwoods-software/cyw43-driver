@@ -17,7 +17,7 @@
 		pinctrl-0 = <&pio0_spi0_default>;
 		pinctrl-names = "default";
 
-		compatible = "raspberrypi,pico-spi-pio";
+		compatible = "custom_raspberrypi,pico-spi-pio";
 		status = "okay";
 		#address-cells = <1>;
 		#size-cells = <0>;
