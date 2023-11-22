@@ -20,6 +20,5 @@ manifest:
         # strictly needed by the application.
         name-allowlist:
           - cmsis      # required by the ARM port
-          - hal_rpi_pico        
-    - name: mbedtls
-      path: modules/crypto/mbedtls
+          - hal_rpi_pico
+          - mbedtls
