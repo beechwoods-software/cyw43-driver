@@ -5,7 +5,7 @@ description: Raspberry Pi Pico SPI via PIO
 
 compatible: "custom_raspberrypi,pico-spi-pio"
 
-include: ["spi-controller.yaml", "custom_raspberrypi,pico-pio-device.yaml", "reset-device.yaml"]
+include: ["spi-controller.yaml", "raspberrypi,pico-pio-device.yaml", "reset-device.yaml"]
 
 properties:
   clk-gpios:
