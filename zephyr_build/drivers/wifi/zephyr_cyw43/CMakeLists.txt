@@ -2,7 +2,7 @@
 
 if(CONFIG_WIFI_ZEPHYR_CYW43)
   if(CONFIG_USE_PICOWI_PIOSPI)
-    zephyr_library_include_directories(src/ src/georgerobotics/)
+    zephyr_library_include_directories(src/ src/georgerobotics/ src/georgerobotics_fw/)
     
     zephyr_library_sources(
       src/zephyr_cyw43_drv.c
@@ -17,7 +17,7 @@ if(CONFIG_WIFI_ZEPHYR_CYW43)
     )
 
   else()
-    zephyr_library_include_directories(src/ src/georgerobotics/ )
+    zephyr_library_include_directories(src/ src/georgerobotics/ src/georgerobotics_fw/)
     
     zephyr_library_sources(
       src/zephyr_cyw43_drv.c
