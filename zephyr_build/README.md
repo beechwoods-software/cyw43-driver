@@ -9,8 +9,8 @@ In order to build a Zephyr image that contains cyw43-driver WiFi support, it is 
 ### Build the example application
 Once you've set up the Zephyr development environment, you can use the **west** tool and code in this repository to build a Raspberry Pi Pico image with cyw43-driver WiFi support by following these steps:
 ```
-  cd <directory where you want your build workspace>
-  git clone https://github.com/beechwoods-software/cyw43-driver.git
+  cd <directory where you want your zephyr build workspace>
+  git clone https://github.com/georgerobotics/cyw43-driver.git
   west init -l cyw43-driver/zephyr_build/
   cd cyw43-driver
   west update
